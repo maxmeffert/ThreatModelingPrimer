@@ -27,6 +27,11 @@ __This Presentation describes a simplified version of Threat Modeling__
 
 ---
 
+### (Information) Assets
+Entites of (financial) value.
+
+---
+
 ### Information Security
 
 The __CIA Triad__ of security attributes/goals.
