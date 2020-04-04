@@ -13,7 +13,7 @@ footer: 'Maximilian Meffert (c) 2020'
 
 ### Disclaimer
 
-__This Presentation describes a simplified version of Threat Modeling__
+**This presentation describes a simplified version of _Threat Modeling_.**
 
 ---
 
@@ -44,6 +44,12 @@ Accuracy and completeness of an information must be assured over its lifetime.
 An Information must be avaiblabe when needed.
 
 ---
+
+<style scoped>
+li {
+    margin: 3px
+}
+</style>
 
 ### More Information Security
 
