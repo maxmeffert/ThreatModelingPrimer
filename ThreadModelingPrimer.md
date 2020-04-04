@@ -2,7 +2,7 @@
 marp: true
 theme: minimal
 paginate: true
-header: 'Thread Modeling'
+header: 'Thread Modeling - A Primer'
 footer: 'Maximilian Meffert (c) 2020'
 ---
 
@@ -32,9 +32,15 @@ Entites of (financial) value.
 
 ---
 
+<style scoped>
+li {
+    margin: 3px
+}
+</style>
+
 ### Information Security
 
-The __CIA Triad__ of security attributes/goals.
+The _CIA Triad_ of primary security goals*.
 
 * __Confidentiality__
 An Information must not be available or be disclosed to unauthorized individuals, entities or processes.
@@ -42,6 +48,8 @@ An Information must not be available or be disclosed to unauthorized individuals
 Accuracy and completeness of an information must be assured over its lifetime.
 * __Availability__
 An Information must be avaiblabe when needed.
+
+_*FYI: The terms security attributes/properties/aspects/criteria may also be used._
 
 ---
 
@@ -53,7 +61,7 @@ li {
 
 ### More Information Security
 
-Secondary/derived security attributes/goals
+Secondary/derived security goals:
 
 * __Authenticity__
 Correctness/Trustworthiness can be verified*.
@@ -64,24 +72,24 @@ Operators can be clearly identified.
 * __Anonymity__
 Operators cannot be identified.
 
-_*FYI: The term **Verification** implies provability, this demands more than just a simple review which would be just **Validation**._
+_*FYI: The term **Verification** implies provability, this demands more than just a simple review which would be just **Validation**._ Thus,  colloquial 
 
 ---
 
 ### Even More Informatin Security
 
-GDPR (DSGVO) security attributes/goals
+GDPR (DSGVO) security goals:
 
 * __Resilience__
 Robustness against surveillance and sabotage.
 
-More or less a combination of all others because... EU lawyers, i guess...
+More or less a combination of all other security goals because... EU lawyers, i guess...
 
 ---
 
 ### STRIDE
 
-A model of threats developed by Praerit Garg and Loren Kohnfelder at Microsoft.
+A model of threats developed by Praerit Garg and Loren Kohnfelder* at Microsoft.
 
 || Threat | Security Goal | 
 |:-|:-|:-|
@@ -91,6 +99,8 @@ A model of threats developed by Praerit Garg and Loren Kohnfelder at Microsoft.
 | __I__ | Information Disclosure | Confidiality |
 | __D__ | Dinial of Service | Availability |
 | __E__ | Elevation of Privilege | Confidiality, Integrity, Availability |
+
+_*FYI: Loren Kohnfelder is more or less the father of PKIs and X.509 certificates._
 
 ---
 ### STRIDE Threats
